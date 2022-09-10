@@ -1,0 +1,21 @@
+DOM : La abreviatura DOM significa Document Object Model, lo que hace es cargar el 
+contenido de un sitio web y genera un modeloo. A travez de cuales se puede manipular
+el contenido de una del sitio, a travez de objetos. Cambiar sus atributos, crear 
+elementos, etc.
+
+DOM element selectors : Cuando el browser parsea el HTML, crea un arbol de objetos, 
+Javasrcript no sabe como trabajar con html, pero si con objetos. Entonces a travez
+de por ejemplo document, que es un objeto, se trabajar con los elementos de HTML
+a travez de selectores, mediante document.
+
+Algunos de los selectores que se pueden utilzar son, con los cuales se manipula el 
+elemento que se selecciona a travez de una propiedad :
+
+. document.getElementsByClassName
+. document.getElementById
+. document.querySelector
+. document.querySelectorAll
+
+DOM events : Es una funcion que se ejecuta cuando pasa algo sobre algun elemento.
+Como por ejemplo, cuando se hace "click" en un boton, cuando se hace foco en 
+edit, cuando se pasa el mouse sobre una etiqueta.

@@ -18,4 +18,4 @@ elemento que se selecciona a travez de una propiedad :
 
 DOM events : Es una funcion que se ejecuta cuando pasa algo sobre algun elemento.
 Como por ejemplo, cuando se hace "click" en un boton, cuando se hace foco en 
-edit, cuando se pasa el mouse sobre una etiqueta.
+edFT-M2

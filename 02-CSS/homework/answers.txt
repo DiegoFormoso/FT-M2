@@ -1,0 +1,28 @@
+FRAMEWORK : es un marco de referencia que nos provee distintas herramientas para el desarrollo
+de aplicaciones de forma mas simple. En es caso de CSS, no va a proveer una serie elementos
+con propiedades ya definidas standards, las cuales podemos utilizar sin tener que definir cada
+una una de ellas, una por una, elemento por elemento. De esta manera se pueden desarrollar las
+aplicaciones de una forma mas rapida.
+
+Dentro de los frameworks mas conocidos de CSS tenemos los siguientes :
+. Bootstrap
+. Foundation
+. Bulma
+. Ulkit
+. Semantic UI
+
+PREPROCESADOR : son programas que se procesan CSS entre el HTML y CSS, es como si fuera una capa
+superior de CSS, los cuales pueden variables propias, selectores anidados. Se utilizan para no
+redefinir codigo CSS, por tanto realiza la lectura del codigo mas simple y mas facil de mantener
+en el tiempo.
+
+Dentro de los Preprocesadores mas comunes utilizados se encuentran :
+
+. SASS
+. LESS
+. Stylus
+. PostCSS
+
+RESPONSIVE WEBSITE  : se utiliza par que un sitio web o aplicacion web, se vea bien en cualquier 
+dispositivo, ya sea un celular, cualquier tipo de monitor, smart tv o tablet. Y esto se hace a traves
+de CSS.

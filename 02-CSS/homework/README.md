@@ -36,7 +36,7 @@ A partir de una paǵina que simula una noticia sobre _Música 8D_ es necesario t
 
 ```markdown
 1.variables.less
-2.mixins.less
+2..less
 3.reset.less
 4.global.less
 5.navigation.less

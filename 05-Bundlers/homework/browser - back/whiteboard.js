@@ -1,7 +1,6 @@
+(function () {
 
-  //window.whiteboard = new window.EventEmitter();
-  var whiteboard =  require('./event-emitter.js');
-  module.exports.whiteboard = whiteboard;
+  window.whiteboard = new window.EventEmitter();
 
   // Ultimately, the color of our stroke;
   var color;
@@ -95,7 +94,7 @@
 
   });
 
-  module.exports.whiteboard.draw = function (start, end, strokeColor, shouldBroadcast) {
+  whiteboard.draw = function (start, end, strokeColor, shouldBroadcast) {
 
     // Draw the line between the start and end positions
     // that is colored with the given color.
@@ -113,3 +112,5 @@
     }
 
   };
+
+})();

@@ -1,15 +1,15 @@
+(function () {
 
-  //window.EventEmitter = EventEmitter;
+  window.EventEmitter = EventEmitter;
 
   // our EventEmitter constructor function
-  //module.exports.EventEmitter = function EventEmitter () {
-  module.exports.EventEmitter = function () {
+  function EventEmitter () {
     this.subscribers = {};
   }
 
   // To be used like:
   // instanceOfEE.on('touchdown', cheerFn);
-  module.exports.EventEmitter.prototype.on = function (eventName, eventListener) {
+  EventEmitter.prototype.on = function (eventName, eventListener) {
 
     // If this instance's subscribers object does not yet
     // have the key matching the given event name, create the
@@ -26,7 +26,7 @@
 
   // To be used like:
   // instanceOfEE.emit('codec', 'Hey Snake, Otacon is calling!');
-  module.exports.EventEmitter.prototype.emit = function (eventName) {
+  EventEmitter.prototype.emit = function (eventName) {
 
     // If there are no subscribers to this event name, why even?
     if (!this.subscribers[eventName]) {
@@ -43,3 +43,4 @@
 
   };
 
+})();

@@ -1,0 +1,33 @@
+.card {
+    margin: 20px;
+    width: 18rem;
+    border: 2px solid;
+}
+
+.cardTitle {
+    margin-bottom: 15px;
+}
+
+.btnContent {
+    display: flex;
+    justify-content: right;
+}
+
+.closeIcon {
+    display: flex;
+    justify-content: center;
+    align-self: flex-end;
+    margin-top: 8px;
+    margin-bottom: 8px;
+    background-color: red;
+    color: white;
+}
+
+.cardBody {
+    margin-top: 0px !important;
+    padding-top: 0px !important;
+    display: flex;
+    align-content: space-around;
+    justify-items: center;
+    justify-content: center;
+}

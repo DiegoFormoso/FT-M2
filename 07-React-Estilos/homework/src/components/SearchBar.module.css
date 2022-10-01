@@ -1,0 +1,18 @@
+.bar {
+    background-color: slateblue;
+}
+
+.text {
+    border-style: none;
+    font-size: medium; 
+}
+
+.btn {
+    margin: 2px 2px 2px 2px;
+    background-color: lightgray;
+}
+
+.btn:hover{
+    background-color: gray;
+    color: beige;
+}

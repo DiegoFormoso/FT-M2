@@ -1,0 +1,25 @@
+.btn {
+    background-color: transparent;
+    color:  mediumseagreen;
+    border-radius: 3px;
+    border-style: solid;;
+    border-color: mediumseagreen;
+    margin: 5px;
+    font-size: 0.8rem;
+    padding-top: 4px;
+    padding-bottom: 4px;
+    padding-left: 14px;
+    padding-right: 14px;
+}
+
+.txt {
+    border-radius: 5px;
+    font-size: 0.8rem;
+    padding: 5px;
+}
+
+.formu {
+    display: flex;
+    border-style: solid;
+    border-color: yellow;
+}

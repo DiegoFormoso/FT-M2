@@ -9,10 +9,14 @@ const initialState = {
 // ¿Qué tiene que hacer el reducer con el contador de cada caso?
 export default (state = initialState, action) => {
   switch (action.type) {
-    case INCREMENT:
-    // completa para este caso
-    case DECREMENT:
-    // Fill para este otro
+    case INCREMENT: return {
+      ...state,
+      count: state.count+1
+    }
+    case DECREMENT: return {
+      ...state,
+      count: state.count-1
+    }
     default:
       return state;
   }

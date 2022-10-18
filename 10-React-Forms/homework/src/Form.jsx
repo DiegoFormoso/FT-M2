@@ -22,12 +22,13 @@ export const validate = (input) => {
 
 export default function  Form() {
 
-  const [input, setInput] = useState({
+  // para el checkpoint hay que ponerlo asi antes del estado, por el tema de los test
+  const [input, setInput] = React.useState({
     username: "",
     password: ""
   });
 
-  const [errors, setError] = useState({});
+  const [errors, setError] = React.useState({});
  
   const handleInputChange = e => {
     setInput({
